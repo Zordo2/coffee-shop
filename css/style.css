@@ -1,0 +1,114 @@
+:root
+{
+    --mainColor:#ff7d27e7;
+    --secondColor:#ffca18;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar
+{
+    background-color: white !important;
+    cursor: pointer;
+    padding: 20px;
+    z-index: 9999999999999999999999;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+input
+{
+    width: 300px !important;
+}
+.searchIcon
+{
+    height: 100%;
+    background-color: var(--mainColor);
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+}
+button
+{
+    background-color: var(--mainColor) !important;
+    color: white !important;
+}
+.search
+{
+    margin-right: 50px;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-position: center center;
+    background-size: 100%;
+}
+.brdr
+{
+    height: 5px;
+    width: 260px;
+    background-color: var(--mainColor);
+}
+.brdrTop
+{
+    height: 5px;
+    width: 90px;
+    background-color: var(--mainColor);
+}
+.img img{
+    position: relative;
+    z-index: 99999 !important;
+    overflow: hidden;
+}
+.img::after
+{
+    content: '';
+    /* right: 21%; */
+    right: 12%;
+    top: -12px;
+    position: absolute;
+    background-color: var(--mainColor);
+    width: 60px;
+    height: 80px;
+}
+.img::before
+{
+    content: '';
+    /* left: 23%; */
+    left: 12%;
+    bottom: -10px;
+    position: absolute;
+    background-color: var(--secondColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.title p
+{
+    color: #00a8f3;
+}
+.coffeeProducts .item p
+{
+    text-shadow: 2px 2px 10px #3f48cc ;
+}
+.reviews span
+{
+    text-shadow: 2px 2px 10px rgb(128, 128, 128) ;
+}
+.email input
+{
+    width: 50% !important;
+    padding: 20px!important;
+}
+.reviews i
+{
+    color: var(--mainColor) !important;
+}
+.homeContent h2
+{
+    color: var(--secondColor);
+}
